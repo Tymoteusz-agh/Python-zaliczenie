@@ -1,0 +1,11 @@
+{
+  "stacja": "Meteo-01",
+  "jednostka": "°C",
+  "pomiary": [
+    {"godzina": 6, "temperatura": 8.1, "wilgotnosc": 82},
+    {"godzina": 9, "temperatura": 12.4, "wilgotnosc": 70},
+    {"godzina": 12, "temperatura": 17.9, "wilgotnosc": 55},
+    {"godzina": 15, "temperatura": 19.2, "wilgotnosc": 51},
+    {"godzina": 18, "temperatura": 15.6, "wilgotnosc": 63}
+  ]
+}

@@ -1,0 +1,8 @@
+# Przykładowy plik 'rc' w konwencji klucz=wartość
+# (linie zaczynające się od '#' i ';' są pomijane)
+styczen=12.4
+luty=15.1
+marzec=18.7
+kwiecien=22.3
+maj=25.0
+czerwiec=27.8

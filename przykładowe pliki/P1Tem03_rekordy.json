@@ -1,0 +1,8 @@
+[
+  {"dzien": 1, "sprzedaz": 1200, "zwroty": 30},
+  {"dzien": 2, "sprzedaz": 1450, "zwroty": 25},
+  {"dzien": 3, "sprzedaz": null, "zwroty": 40},
+  {"dzien": 4, "sprzedaz": 1610, "zwroty": 18},
+  {"dzien": 5, "sprzedaz": 1390, "zwroty": null},
+  {"dzien": 6, "sprzedaz": 1720, "zwroty": 22}
+]
