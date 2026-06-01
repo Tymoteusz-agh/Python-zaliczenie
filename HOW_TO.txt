@@ -1,0 +1,57 @@
+===========================================================
+ HOW_TO - jak uruchomić temat 03 (krok po kroku)
+===========================================================
+
+Co to jest:
+  Aplikacja rysująca wykres liniowy z danych wczytanych z pliku
+  (CSV, TXT, DAT, TSV, XLSX, XLS, JSON, RC).
+
+
+-----------------------------------------------------------
+ 1. CZEGO POTRZEBUJESZ
+-----------------------------------------------------------
+  - Python 3.10 lub nowszy (https://www.python.org/downloads/)
+  - Podczas instalacji Pythona na Windows zaznacz:
+        [x] Add Python to PATH
+
+
+-----------------------------------------------------------
+ 2. INSTALACJA BIBLIOTEK
+-----------------------------------------------------------
+  Otwórz terminal w tym folderze (T03) i wpisz:
+
+      pip install -r requirements.txt
+
+  To zainstaluje wszystkie potrzebne biblioteki (pandas,
+  numpy, matplotlib, openpyxl).
+
+  (tkinter NIE wymaga instalacji - jest częścią Pythona.)
+
+
+-----------------------------------------------------------
+ 3. URUCHOMIENIE PROGRAMU
+-----------------------------------------------------------
+  W tym samym terminalu (folder T03) wpisz:
+
+      python P1Tem03.py
+
+  Otworzy się okno aplikacji.
+
+
+-----------------------------------------------------------
+ 4. JAK UŻYWAĆ
+-----------------------------------------------------------
+  1) Kliknij "Wczytaj plik..." i wybierz plik z danymi.
+  2) Wybierz kolumnę dla osi X i osi Y z list rozwijanych.
+  3) Wykres narysuje się automatycznie.
+  4) Przycisk "Zamień osie" zamienia X z Y miejscami.
+
+
+-----------------------------------------------------------
+ 5. PLIKI W TYM FOLDERZE
+-----------------------------------------------------------
+  P1Tem03.py            - start programu (uruchamiasz ten plik)
+  P1Tem03_gui.py        - okno i obsługa interfejsu
+  P1Tem03_loaders.py    - wczytywanie danych z różnych formatów
+  requirements.txt      - lista bibliotek do instalacji
+===========================================================
